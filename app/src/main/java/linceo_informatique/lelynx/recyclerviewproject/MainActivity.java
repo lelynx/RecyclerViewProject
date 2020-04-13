@@ -29,7 +29,7 @@ public class MainActivity
 
     /**
      * exemple de commit#1
-     * @param savedInstanceState
+     * @param savedInstanceState état précédent
      */
 
     @Override
@@ -46,6 +46,9 @@ public class MainActivity
         loadDataIntoArrayList();
         initRecyclerView();
         initWidget();
+
+        // pour suppriméer l'erreur du commit
+        String name = returnName();
     }
 
     private void initWidget() {
@@ -123,5 +126,9 @@ public class MainActivity
         mAdapter.notifyItemChanged(position);
     }
 
+    // un changement pour le commit#2
+    public String returnName() {
+        return "Philippe PONS";
+    }
 
 }
