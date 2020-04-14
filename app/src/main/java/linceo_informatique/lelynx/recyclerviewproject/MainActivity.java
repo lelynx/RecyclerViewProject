@@ -133,4 +133,10 @@ public class MainActivity
     
     // un comment pour le pull process test--Date: 14/4/20
 
+    // changement pour le commit pull process test
+    // cette méthode n'a pas été commitée vers origin
+    public String philMethod() {
+        return "Hello";
+    }
+
 }
