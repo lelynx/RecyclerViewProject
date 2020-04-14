@@ -135,8 +135,8 @@ public class MainActivity
 
     // changement pour le commit pull process test
     // cette méthode n'a pas été commitée vers origin
-//    public String philMethod() {
-//        return "Hello";
-//    }
+    public String philMethod() {
+        return "Hello";
+    }
 
 }
